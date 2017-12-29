@@ -1,3 +1,4 @@
+/* eslint-disable */
 import express from 'express';
 var bodyParser = require('body-parser');
 var webpack = require('webpack');
@@ -16,8 +17,8 @@ var compiler = webpack(config);
 app.use(
   webpackDevMiddleware(compiler, {
     noInfo: true,
-    publicPath: config.output.publicPath
-  })
+    publicPath: config.output.publicPath,
+  }),
 );
 app.use(webpackHotMiddleware(compiler));
 
