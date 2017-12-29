@@ -1,0 +1,56 @@
+{
+  "name": "mern-boilerplate",
+  "version": "1.0.0",
+  "description": "An Easy Way to Get Started with the MERN Stack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tranki1/kimtran-mern-boilerplate.git"
+  },
+  "keywords": [
+    "mern",
+    "boilerplate",
+    "react",
+    "redux",
+    "node.js",
+    "express"
+  ],
+  "author": "Kim Tran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tranki1/kimtran-mern-boilerplate/issues"
+  },
+  "homepage": "https://github.com/tranki1/kimtran-mern-boilerplate#readme",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "history": "^4.7.2",
+    "mongoose": "^5.2.13",
+    "prop-types": "^15.6.2",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-redux": "^5.0.7",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "redux": "^4.0.0",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^9.0.0",
+    "babel-loader": "^8.0.2",
+    "babel-preset-react": "^6.24.1",
+    "eslint": "^5.5.0",
+    "eslint-plugin-react": "^7.11.1",
+    "webpack": "^4.17.2",
+    "webpack-dev-middleware": "^3.2.0",
+    "webpack-dev-server": "^3.1.7",
+    "webpack-hot-middleware": "^2.23.1",
+    "webpack-manifest-plugin": "^2.0.3",
+    "webpack2-externals-plugin": "^1.0.0"
+  }
+}
